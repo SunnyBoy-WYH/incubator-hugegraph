@@ -19,7 +19,7 @@ import org.apache.hugegraph.dist.RegisterUtil
 import org.apache.hugegraph.masterelection.GlobalMasterInfo
 import org.apache.tinkerpop.gremlin.structure.T
 
-RegisterUtil.registerRocksDB()
+RegisterUtil.registerBackends()
 
 conf = "conf/graphs/hugegraph.properties"
 graph = HugeFactory.open(conf)
